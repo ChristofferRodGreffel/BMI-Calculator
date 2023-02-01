@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <title>JS3</title>
+  </head>
+  <body>
+    <h1>BMI Beregner</h1>
+    <form>
+      <label for="weight">Indtast din vægt i kg:</label>
+      <input
+        name="weight"
+        type="number"
+        id="weight"
+        placeholder="eks. 70 kg"
+        autocomplete="off"
+        required
+      />
+      <label for="height">Indtast din højde i cm:</label>
+      <input
+        name="height"
+        type="number"
+        id="height"
+        placeholder="eks. 170 cm"
+        autocomplete="off"
+        required
+      />
+      <button type="submit" id="submit">Start magisk BMI maskine</button>
+      <label id="result">Dit BMI er:</label>
+    </form>
+    <p id="meaning">&nbsp;</p>
+  </body>
+</html>
